@@ -1,0 +1,65 @@
+<html>
+<head>
+<script language="javascript" type="text/javascript" src="indicSupport.js"> </script>
+<script language="javascript" type="text/javascript" src="tiny_mce.js"></script>
+<script type="text/javascript">
+	tinyMCE.init({
+		mode : "textareas",
+		theme : "advanced",
+		theme_advanced_buttons1_add : "fontselect,fontsizeselect",
+		plugins : "IndianLanguage",
+		handle_event_callback : "keypressEvent"
+	});
+</script>
+</head>
+<body onLoad="initializeIndicCookie();">
+<br><br><br>
+         <center>
+         <form name="indicForm" method="GET" action="#">
+                 <input type="hidden" name="offset" value="">
+                 <input type="hidden" name="convertFlag" value="">
+                 <select name="selectLanguage" onChange="selectLang(this);">
+                     <option selected>Select Keyboard Map</option>
+                     <option label="inscript" value=-1>English</option>
+                     <option label="inscript" value=0>Hindi - Inscript</option>
+                     <option label="wx" value=0>Hindi - WX</option>
+                     <option label="multi_hindi_rts">Hindi - RTS</option>
+                     <option label="inscript" value=0>Marathi - Inscript</option>
+                     <option label="wx" value=0>Marathi - WX</option>
+                     <option label="multi_marathi_rts">Marathi - RTS</option>
+                     <option label="inscript" value=1>Bengali - Inscript</option>
+                     <option label="wx" value=1>Bengali - WX</option>
+                     <option label="inscript" value=2>Gurumukhi - Inscript</option>
+                     <option label="wx" value=2>Gurumukhi - WX</option>
+                     <option label="inscript" value=3>Gujarathi - Inscript</option>
+                     <option label="wx" value=3>Gujarathi - WX</option>
+                     <option label="inscript" value=4>Oriya - Inscript</option>
+                     <option label="wx" value=4>Oriya - WX</option>
+                     <option label="inscript" value=5>Tamil - Inscript</option>
+                     <option label="wx" value=5>Tamil - WX</option>
+                     <option label="multi_tamil_rts">Tamil - RTS</option>
+                     <option label="inscript" value=6>Telugu - Inscript</option>
+                     <option label="wx" value=6>Telugu - WX</option>
+                     <option label="multi_telugu_rts">Telugu - RTS</option>
+                     <option label="inscript" value=7>Kannada - Inscript</option>
+                     <option label="wx" value=7>Kannada - WX</option>
+                     <option label="inscript" value=8>Malayalam - Inscript</option>
+                     <option label="wx" value=8>Malayalam - WX</option>
+                 </select>
+             <table height="30">
+             <tr><td>
+             <div title="Show hint menu for the keyboard map while typing" id="div_keymap_hint" style="display:none">
+                 <small>Keymap Hint</small>
+                 <input type="checkbox" name="chk_show_hint" onClick="togHintMenu();">
+	         </div>
+            </td></tr>
+            </table>
+         </form>
+
+		<textarea name="user_sug" class="indic_ime" cols="80" rows="20"></textarea>
+		</center>
+         <p>&nbsp;</p><p>&nbsp;</p>
+         <p>&nbsp;</p><p>&nbsp;</p>
+         <p>&nbsp;</p><p>&nbsp;</p>
+</body>
+</html>

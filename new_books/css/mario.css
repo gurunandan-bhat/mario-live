@@ -1,0 +1,95 @@
+@CHARSET "UTF-8";
+
+body {
+font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+font-size: 62.5%;
+color: #666;
+margin: 0;
+}
+
+.content img.cover {
+	padding: 5px;
+	border: 1px solid #efefef;
+	margin-bottom: 3px;
+}
+
+input.text {
+	width: 60px;
+}
+
+.colborder {
+	border: none;
+}
+
+table.cost {
+	color: #a52a2a;
+	font-weight: bold;
+}
+
+td {
+	font-weight: bold;
+}
+
+p.flush {
+	margin-bottom: 0;
+}
+
+
+.lowermenu {
+	padding-left: 2px;
+	padding-right: 2px;
+	margin-bottom: 20px;
+}
+
+.lowermenu img {
+	float: left;
+	margin: 0;
+	padding: 0 5px 5px 0;
+	border: 0;
+}
+
+.lowermenu hr {
+	background: #fff;
+	margin: 0;
+}
+
+.lowermenu p {
+	margin: 0;
+	padding: 0;
+	font-size: 11px;
+	color: #406b35;
+}
+ 
+.lowermenu h3 {
+	font-family: Georgia, serif;
+	font-size: 14px;
+	text-decoration: none;
+	font-variant: small-caps;
+	color: #406b35;
+	line-height: 16px;
+	margin-bottom: 5px;
+}
+
+.bordered {
+	float: left;
+	background: url('../images/border.gif') bottom repeat-x;
+	margin-bottom: 10px;
+}
+
+.content h3 {
+ 	border-bottom: 1px solid #FFDFA1;
+    border-top: 1px solid #FFDFA1;
+    clear: both;
+    color: #4E4E4E;
+    font-family: Georgia,serif;
+    font-size: 1.3em;
+    font-variant: small-caps;
+    line-height: 1.6em;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    text-align: center;	
+}
+
+td.money, th.money {
+	text-align: right;
+}

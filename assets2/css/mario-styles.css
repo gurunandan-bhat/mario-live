@@ -1,0 +1,97 @@
+/*16-10-2020*/
+.mid-title{margin: 0 0 15px;}
+
+.profile-setn .edit-heads{
+	background: #e8e8e8 !important;
+    padding: 5px 10px;
+    color: #606060;
+    font: 13px/20px 'AvenirNextLTW01-Medium';
+    margin: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.profile-setn .edit-heads ion-icon{
+    position: relative;
+    padding: 0px 4px 0 0;
+    top: 1px;
+}
+.profile-setn .profile-edit .profile-block {
+    width: 50%;
+    float: left;
+    border: 0px solid red;
+    padding: 10px 40px 10px 0px;
+    margin: 15px 0 0 0;
+}
+.profile-setn .profile-edit .password-block {
+    width: 50%;
+    float: right;
+    border: 0px solid red;
+    padding: 10px 0px 10px 0px;
+    margin: 15px 0 0 0;
+}
+.profile-setn .profile-edit h4 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #000;
+    padding: 0 0 17px 0;
+}
+.profile-setn .profile-edit label {
+    font-size: 13px;
+    position: relative;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 16px;
+    letter-spacing: normal;
+    margin: 0 0 15px 0;
+    text-align: left;
+    color: #4a4a4a;
+    text-transform: uppercase;
+}
+.profile-setn .profile-edit span.validation {
+	font-size: 11px;
+    line-height: 18px;
+    color: #ff0000;
+    padding: 0 0 0 0;
+    display: inline-block;
+    text-align: left;
+}
+span.validation img {
+    width: 13px;
+    position: relative;
+    top: 2px;
+    left: 0px;
+    margin: 0 2px 0 5px;
+}
+.profile-setn .profile-edit .input-bx {
+    width: 100%;
+    /*padding: 12px 10px;*/
+    padding: 10px 60px 10px 11px !important;
+    border: 1px solid #cacaca;
+    margin: 2px 0 25px 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #000 !important;
+    background: transparent !important;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 300 !important;
+
+}
+.profile-setn .profile-edit .save-btn-bx .save-btn {
+    color: #fff;
+    font: 13px/16px 'Avenir Next LT W01 Demi';
+    background: #5aa0fc;
+    padding: 13px 25px 13px 25px;
+    border: 1px solid #5aa0fc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    margin: 10px 0 0 0;
+}
