@@ -3,7 +3,7 @@
 
 //HOST SERVER VARIABLES
 define('SITE_ADDRESS','https://www.mariodemiranda.com/');
-define('DOCROOT','/home/gbhat/mario/public_html/');
+define('DOCROOT','/home/gbhat/repos/mario-live/');
 
 define('URL_WRITING',1);
 

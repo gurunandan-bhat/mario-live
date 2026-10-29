@@ -1,5 +1,5 @@
 <?php
-include('/home/gbhat/mario/public_html/config/crypto.php');
+include __DIR__ . '/../config/crypto.php';
 
 //error_reporting(0);
 
